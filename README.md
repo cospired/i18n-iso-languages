@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cospired/i18n-iso-languages.svg?branch=master)](https://travis-ci.org/cospired/i18n-iso-languages)
+
 # i18n-iso-languages
 
 i18n for ISO 3166-1 country codes. We support Alpha-2, Alpha-3 B and T codes from https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
