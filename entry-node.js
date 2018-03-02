@@ -1,6 +1,7 @@
 var library = require("./index");
 
 var locales = [
+  require("./langs/br.json"),
   require("./langs/de.json"),
   require("./langs/en.json"),
   require("./langs/fr.json")
