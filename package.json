@@ -17,8 +17,15 @@
     "alpha-3",
     "language",
     "languages",
+    "br",
+    "cs",
     "de",
-    "en"
+    "en",
+    "fr",
+    "hu",
+    "is",
+    "lv",
+    "lt"
   ],
   "author": {
     "name": "Dirk Haage",

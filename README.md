@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cospired/i18n-iso-languages.svg?branch=master)](https://travis-ci.org/cospired/i18n-iso-languages)
+
 # i18n-iso-languages
 
 i18n for ISO 3166-1 country codes. We support Alpha-2, Alpha-3 B and T codes from https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
@@ -40,8 +42,15 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 
 ### Supported languages (ISO 639-1)
 
-* `de`: German
-* `en`: English
+* `br`: Breton (based on https://br.wikipedia.org/wiki/Listenn_glok_kodoù_ISO_639-1)
+* `cs`: Czech (based on https://cs.wikipedia.org/wiki/Seznam_kódů_ISO_639-1)
+* `de`: German (by native speaker)
+* `en`: English (ISO 639-1 standard names)
+* `fr`: French (based on https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-1)
+* `hu`: Hungarian (based on https://hu.wikipedia.org/wiki/ISO_639-1_nyelvkódok_listája)
+* `is`: Islandic (based on https://is.wikipedia.org/wiki/Listi_yfir_tungumálakóða_%C3%AD_ISO_639-1)
+* `lv`: Latvian (based on https://lv.wikipedia.org/wiki/ISO_639-1_kodu_saraksts)
+* `lt`: Lithuanian (based on https://lt.wikipedia.org/wiki/Sąrašas:ISO_639-1_kodai)
 
 [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
