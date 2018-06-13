@@ -2,7 +2,7 @@
 
 # i18n-iso-languages
 
-i18n for ISO 3166-1 country codes. We support Alpha-2, Alpha-3 B and T codes from https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+i18n for ISO 3166-1 language codes. We support Alpha-2, Alpha-3 B and T codes from https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
 This packages is heavily based on [i18n-iso-countries](https://github.com/michaelwittig/node-i18n-iso-countries).
 
@@ -55,7 +55,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 
 [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
-### Country to Code
+### Language to Code
 
 `````javascript
 var languages = require("@cospired/i18n-iso-languages");
@@ -86,11 +86,11 @@ console.log("ger (Alpha-3 B) => " + languages.alpha3ToAlpha2("ger") + " (Alpha-2
 ### Convert ISO 639-1 (Alpha-2) to ISO 639-2 (Alpha-3) code
 `````javascript
 var languages = require("@cospired/i18n-iso-languages");
-console.log("de (Alpha-2) => " + countries.alpha2ToAlpha3T("de") + " (Alpha-3 T)");
+console.log("de (Alpha-2) => " + languages.alpha2ToAlpha3T("de") + " (Alpha-3 T)");
 // de (Alpha-2) => deu (Alpha-3 T)
 
 var languages = require("@cospired/i18n-iso-languages");
-console.log("de (Alpha-2) => " + countries.alpha2ToAlpha3B("de") + " (Alpha-3 B)");
+console.log("de (Alpha-2) => " + languages.alpha2ToAlpha3B("de") + " (Alpha-3 B)");
 // de (Alpha-2) => ger (Alpha-3 B)
 `````
 
@@ -98,7 +98,7 @@ console.log("de (Alpha-2) => " + countries.alpha2ToAlpha3B("de") + " (Alpha-3 B)
 
 `````javascript
 var languages = require("@cospired/i18n-iso-languages");
-console.log(countries.getAlpha2Codes());
+console.log(languages.getAlpha2Codes());
 // { 'aa': 'aar', 'ab': 'abk', [...], 'za': 'zha', 'zu': 'zul' }
 `````
 
@@ -106,15 +106,15 @@ console.log(countries.getAlpha2Codes());
 
 `````javascript
 var languages = require("@cospired/i18n-iso-languages");
-console.log(countries.getAlpha3TCodes());
+console.log(languages.getAlpha3TCodes());
 // { 'aar': 'aa', 'abk': 'ab', [...], 'zha': 'za', 'zul': 'zu' }
 
 var languages = require("@cospired/i18n-iso-languages");
-console.log(countries.getAlpha3BCodes());
+console.log(languages.getAlpha3BCodes());
 // { 'aar': 'aa', 'abk': 'ab', [...], 'zha': 'za', 'zul': 'zu' }
 `````
 
-### Validate country code
+### Validate language code
 ``````javascript
 var languages = require("@cospired/i18n-iso-languages");
 console.log(languages.isValid("de"), languages.isValid("ger"), languages.isValid("xx")));
