@@ -19,9 +19,6 @@ coverage:
 	@echo
 
 test: jshint circular mocha
-	@echo "test"
+	@echo "test done"
 	@echo
 
-outdated:
-	@echo "outdated modules?"
-	@./node_modules/.bin/npmedge
