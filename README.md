@@ -2,7 +2,7 @@
 
 # i18n-iso-languages
 
-i18n for ISO 3166-1 country codes. We support Alpha-2, Alpha-3 B and T codes from https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+i18n for ISO 3166-1 language codes. We support Alpha-2, Alpha-3 B and T codes from https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
 This packages is heavily based on [i18n-iso-countries](https://github.com/michaelwittig/node-i18n-iso-countries).
 
@@ -55,7 +55,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 
 [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
-### Country to Code
+### Language to Code
 
 `````javascript
 var languages = require("@cospired/i18n-iso-languages");
@@ -114,7 +114,7 @@ console.log(languages.getAlpha3BCodes());
 // { 'aar': 'aa', 'abk': 'ab', [...], 'zha': 'za', 'zul': 'zu' }
 `````
 
-### Validate country code
+### Validate language code
 ``````javascript
 var languages = require("@cospired/i18n-iso-languages");
 console.log(languages.isValid("de"), languages.isValid("ger"), languages.isValid("xx")));
