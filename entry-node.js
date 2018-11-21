@@ -10,7 +10,8 @@ var locales = [
   require("./langs/is.json"),
   require("./langs/lv.json"),
   require("./langs/lt.json"),
-  require("./langs/sv.json")
+  require("./langs/sv.json"),
+  require("./langs/pl.json"),
 ];
 
 for (var i = 0; i < locales.length; i++) {
