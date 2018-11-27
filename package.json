@@ -1,6 +1,6 @@
 {
   "name": "@cospired/i18n-iso-languages",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "i18n for ISO 639 language codes",
   "typings": "index.d.js",
   "keywords": [
