@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/cospired/i18n-iso-languages.svg?branch=master)](https://travis-ci.org/cospired/i18n-iso-languages)
+[![npm version](https://badge.fury.io/js/%40cospired%2Fi18n-iso-languages.svg)](https://badge.fury.io/js/%40cospired%2Fi18n-iso-languages)
 
 # i18n-iso-languages
 
