@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.1
+* add spanish translations
+
 ## 2.0.0
 * drop support for node 4
 
