@@ -61,7 +61,8 @@
     "istanbul": "0.4.5",
     "jshint": "^2.9.6",
     "madge": "^3.1.1",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "npm-check": "^5.9.0"
   },
   "main": "entry-node",
   "browser": "index",
@@ -69,6 +70,7 @@
     "node": ">= 6"
   },
   "scripts": {
+    "npm:update": "npm-check -u",
     "test": "make test"
   },
   "bugs": {
