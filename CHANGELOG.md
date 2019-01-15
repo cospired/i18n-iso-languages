@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.2
+* maintenance (deps and such)
+
 ## 2.0.1
 * add spanish translations
 
