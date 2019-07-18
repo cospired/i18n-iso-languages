@@ -49,6 +49,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `de`: German (by native speaker)
 * `en`: English (ISO 639-1 standard names)
 * `es`: Spanish (based on https://es.wikipedia.org/wiki/ISO_639-1)
+* `fi`: Finnish (based on https://kotoistus.fi/suositukset/suositukset-kielet-fi-koodi/)
 * `fr`: French (based on https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-1)
 * `hu`: Hungarian (based on https://hu.wikipedia.org/wiki/ISO_639-1_nyelvkódok_listája)
 * `is`: Islandic (based on https://is.wikipedia.org/wiki/Listi_yfir_tungumálakóða_%C3%AD_ISO_639-1)
