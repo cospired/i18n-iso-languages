@@ -57,6 +57,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `lt`: Lithuanian (based on https://lt.wikipedia.org/wiki/Sąrašas:ISO_639-1_kodai)
 * `nl`: Dutch (based on https://nl.wikipedia.org/wiki/Lijst_van_ISO_639-codes)
 * `pt`: Portuguese (European) (based on https://pt.wikipedia.org/wiki/ISO_639)
+* `ru`: Russian (by professional translator)
 * `sv`: Swedish (based on https://sv.wikipedia.org/wiki/ISO_639)
 * `pl`: Polish (based on https://pl.wiktionary.org/wiki/Wikis%C5%82ownik:Kody_j%C4%99zyk%C3%B3w)
 
