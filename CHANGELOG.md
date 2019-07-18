@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.3
+* maintenance (deps and such)
+* added russian translations
+* added finish translations
+* added dutch translations
+
 ## 2.0.2
 * maintenance (deps and such)
 
