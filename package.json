@@ -63,7 +63,7 @@
     "istanbul": "0.4.5",
     "jshint": "^2.10.2",
     "madge": "^3.4.4",
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.0",
     "npm-check": "^5.9.0"
   },
   "main": "entry-node",
