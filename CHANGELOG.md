@@ -1,8 +1,11 @@
 # Changelog
 
+# 2.0.5
+* added italian translations
+
 ## 2.0.4
 * maintenance (deps and such)
-* fix: bug in russian translation
+* fix: bug in russian translations
 
 ## 2.0.3
 * maintenance (deps and such)
