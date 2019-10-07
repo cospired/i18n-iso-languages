@@ -1,5 +1,8 @@
 # Changelog
 
+# 2.0.6
+* add .npmignore to build git-free packages
+
 # 2.0.5
 * added italian translations
 
