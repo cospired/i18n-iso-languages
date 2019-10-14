@@ -1,5 +1,13 @@
 # Changelog
 
+# 2.1.0
+* added norwegian translations
+* added danish translations
+* updated swedish translations
+
+# 2.0.6
+* add .npmignore to build git-free packages
+
 # 2.0.6
 * add .npmignore to build git-free packages
 

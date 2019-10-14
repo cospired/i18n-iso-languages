@@ -46,6 +46,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 
 * `br`: Breton (based on https://br.wikipedia.org/wiki/Listenn_glok_kodoù_ISO_639-1)
 * `cs`: Czech (based on https://cs.wikipedia.org/wiki/Seznam_kódů_ISO_639-1)
+* `da`: Danish (based on https://da.wikipedia.org/wiki/ISO_639-1)
 * `de`: German (by native speaker)
 * `en`: English (ISO 639-1 standard names)
 * `es`: Spanish (based on https://es.wikipedia.org/wiki/ISO_639-1)
@@ -54,15 +55,14 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `hu`: Hungarian (based on https://hu.wikipedia.org/wiki/ISO_639-1_nyelvkódok_listája)
 * `is`: Islandic (based on https://is.wikipedia.org/wiki/Listi_yfir_tungumálakóða_%C3%AD_ISO_639-1)
 * `it`: Italian (based on https://github.com/umpirsky/language-list/blob/master/data/it/language.json)
-* `lv`: Latvian (based on https://lv.wikipedia.org/wiki/ISO_639-1_kodu_saraksts)
 * `lt`: Lithuanian (based on https://lt.wikipedia.org/wiki/Sąrašas:ISO_639-1_kodai)
+* `lv`: Latvian (based on https://lv.wikipedia.org/wiki/ISO_639-1_kodu_saraksts)
 * `nl`: Dutch (based on https://nl.wikipedia.org/wiki/Lijst_van_ISO_639-codes)
+* `no`: Norwegian (based on https://no.wikipedia.org/wiki/Liste_over_ISO_639-1-koder)
+* `pl`: Polish (based on https://pl.wiktionary.org/wiki/Wikis%C5%82ownik:Kody_j%C4%99zyk%C3%B3w)
 * `pt`: Portuguese (European) (based on https://pt.wikipedia.org/wiki/ISO_639)
 * `ru`: Russian (by professional translator)
 * `sv`: Swedish (based on https://sv.wikipedia.org/wiki/ISO_639)
-* `pl`: Polish (based on https://pl.wiktionary.org/wiki/Wikis%C5%82ownik:Kody_j%C4%99zyk%C3%B3w)
-* `no`: Norwegian (based on https://no.wikipedia.org/wiki/Liste_over_ISO_639-1-koder)
-* `da`: Danish (based on https://da.wikipedia.org/wiki/ISO_639-1)
 
 
 [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
