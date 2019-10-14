@@ -17,7 +17,9 @@ var locales = [
   require("./langs/pl.json"),
   require("./langs/pt.json"),
   require("./langs/ru.json"),
-  require("./langs/sv.json")
+  require("./langs/sv.json"),
+  require("./langs/no.json"),
+  require("./langs/da.json")
 ];
 
 for (var i = 0; i < locales.length; i++) {

@@ -61,6 +61,8 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `ru`: Russian (by professional translator)
 * `sv`: Swedish (based on https://sv.wikipedia.org/wiki/ISO_639)
 * `pl`: Polish (based on https://pl.wiktionary.org/wiki/Wikis%C5%82ownik:Kody_j%C4%99zyk%C3%B3w)
+* `no`: Norwegian (based on https://no.wikipedia.org/wiki/Liste_over_ISO_639-1-koder)
+* `da`: Danish (based on https://da.wikipedia.org/wiki/ISO_639-1)
 
 
 [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
