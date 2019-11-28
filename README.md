@@ -4,7 +4,7 @@
 
 # i18n-iso-languages
 
-i18n for ISO 3166-1 language codes. We support Alpha-2, Alpha-3 B and T codes from https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+i18n for ISO 639 language codes. We support Alpha-2, Alpha-3 B and T codes from https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
 This packages is heavily based on [i18n-iso-countries](https://github.com/michaelwittig/node-i18n-iso-countries).
 
