@@ -1,10 +1,10 @@
-export type LocalizedCountryNames = {
+export type LocalizedLanguageNames = {
   [alpha2Key: string]: string
 };
 
 export type LocaleData = {
   locale: string,
-  countries: LocalizedCountryNames
+  languages: LocalizedLanguageNames
 };
 
 export function registerLocale(localeData: LocaleData): void;
@@ -25,7 +25,7 @@ export function getAlpha3BCodes(): { [alpha3Key: string]: string };
  * Returns object map where key is numeric code and value is alpha 2 code
  */
 export function getName(alpha2orAlpha3: string, lang: string): string;
-export function getNames(lang: string): LocalizedCountryNames;
+export function getNames(lang: string): LocalizedLanguageNames;
 export function toAlpha3T(alpha2: string): string;
 export function toAlpha3B(alpha2: string): string;
 export function toAlpha2(alpha3: string): string;
