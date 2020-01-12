@@ -68,8 +68,8 @@
   "devDependencies": {
     "assert-plus": "1.0.0",
     "istanbul": "0.4.5",
-    "jshint": "^2.10.2",
-    "madge": "^3.4.4",
+    "jshint": "^2.10.3",
+    "madge": "3.5.1",
     "mocha": "^6.2.0",
     "npm-check": "^5.9.0"
   },
