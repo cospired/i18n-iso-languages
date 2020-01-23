@@ -27,6 +27,7 @@
     "hu",
     "is",
     "it",
+    "ja",
     "lv",
     "lt",
     "nl",
@@ -35,7 +36,8 @@
     "ru",
     "sv",
     "no",
-    "da"
+    "da",
+    "zh"
   ],
   "author": {
     "name": "Dirk Haage",

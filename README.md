@@ -55,6 +55,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `hu`: Hungarian (based on https://hu.wikipedia.org/wiki/ISO_639-1_nyelvkódok_listája)
 * `is`: Islandic (based on https://is.wikipedia.org/wiki/Listi_yfir_tungumálakóða_%C3%AD_ISO_639-1)
 * `it`: Italian (based on https://github.com/umpirsky/language-list/blob/master/data/it/language.json)
+* `ja`: Japanese (by professional translator)
 * `lt`: Lithuanian (based on https://lt.wikipedia.org/wiki/Sąrašas:ISO_639-1_kodai)
 * `lv`: Latvian (based on https://lv.wikipedia.org/wiki/ISO_639-1_kodu_saraksts)
 * `nl`: Dutch (based on https://nl.wikipedia.org/wiki/Lijst_van_ISO_639-codes)
@@ -63,6 +64,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `pt`: Portuguese (European) (based on https://pt.wikipedia.org/wiki/ISO_639)
 * `ru`: Russian (by professional translator)
 * `sv`: Swedish (based on https://sv.wikipedia.org/wiki/ISO_639)
+* `zh`: Chinese (by professional translator)
 
 
 [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
