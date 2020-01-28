@@ -1,5 +1,9 @@
 # Changelog
 
+# 2.1.1
+* added chinese translations
+* added japanes translations
+
 # 2.1.0
 * added norwegian translations
 * added danish translations
