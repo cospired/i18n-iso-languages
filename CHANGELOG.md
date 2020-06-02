@@ -1,5 +1,9 @@
 # Changelog
 
+# 2.1.2
+* added romanian translations
+* fixed hungarian translations
+
 # 2.1.1
 * added chinese translations
 * added japanes translations
