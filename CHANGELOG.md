@@ -1,5 +1,9 @@
 # Changelog
 
+# 2.2.0
+* fix: make ts spec and tests match (might be breaking tests) 
+* fix: typos and more common used language names for 'de'
+
 # 2.1.2
 * added romanian translations
 * fixed hungarian translations
