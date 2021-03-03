@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/cospired/i18n-iso-languages.svg?branch=master)](https://travis-ci.org/cospired/i18n-iso-languages)
+[![Build Status](https://travis-ci.com/cospired/i18n-iso-languages.svg?branch=master)](https://travis-ci.com/cospired/i18n-iso-languages)
 [![npm version](https://badge.fury.io/js/%40cospired%2Fi18n-iso-languages.svg)](https://badge.fury.io/js/%40cospired%2Fi18n-iso-languages)
 [![Maintainability](https://api.codeclimate.com/v1/badges/31071476c2117e90d6fe/maintainability)](https://codeclimate.com/github/cospired/i18n-iso-languages/maintainability)
 
