@@ -72,14 +72,14 @@
     "assert-plus": "1.0.0",
     "istanbul": "0.4.5",
     "jshint": "^2.10.3",
-    "madge": "3.5.1",
+    "madge": "4.0.1",
     "mocha": "^6.2.0",
     "npm-check": "^5.9.2"
   },
   "main": "entry-node",
   "browser": "index",
   "engines": {
-    "node": ">= 6"
+    "node": ">=10"
   },
   "scripts": {
     "npm:update": "npm-check -u",

@@ -6,7 +6,7 @@ jshint:
 
 circular:
 	@echo "circular"
-	@./node_modules/.bin/madge --circular --format amd --exclude 'madge|source-map' .
+	@./node_modules/.bin/madge --circular --exclude 'madge|source-map' .
 
 mocha:
 	@echo "mocha"
