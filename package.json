@@ -79,7 +79,7 @@
   "main": "entry-node",
   "browser": "index",
   "engines": {
-    "node": ">= 6"
+    "node": ">=10"
   },
   "scripts": {
     "npm:update": "npm-check -u",
