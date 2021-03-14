@@ -1,7 +1,11 @@
 # Changelog
 
+# 3.0.0
+* breaking: dropping support for node 6 and node 8 (EOL since 2019)
+* fix: security fixes in dependencies
+
 # 2.2.0
-* fix: make ts spec and tests match (might be breaking tests) 
+* fix: make ts spec and tests match (might be breaking tests)
 * fix: typos and more common used language names for 'de'
 
 # 2.1.2
