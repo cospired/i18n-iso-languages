@@ -9,19 +9,23 @@ var locales = [
   require("./langs/fi.json"),
   require("./langs/fr.json"),
   require("./langs/hu.json"),
+  require("./langs/id.json"),
   require("./langs/is.json"),
   require("./langs/it.json"),
   require("./langs/ja.json"),
   require("./langs/lv.json"),
   require("./langs/lt.json"),
+  require("./langs/ms.json"),
   require("./langs/nl.json"),
   require("./langs/pl.json"),
   require("./langs/pt.json"),
   require("./langs/ro.json"),
   require("./langs/ru.json"),
   require("./langs/sv.json"),
+  require("./langs/th.json"),
   require("./langs/no.json"),
   require("./langs/da.json"),
+  require("./langs/vi.json"),
   require("./langs/zh.json")
 ];
 
