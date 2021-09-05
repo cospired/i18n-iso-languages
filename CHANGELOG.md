@@ -1,5 +1,11 @@
 # Changelog
 
+# 3.0.1
+* added indonesian translations
+* added malay translations
+* added thai translations
+* added vietnamese translations
+
 # 3.0.0
 * breaking: dropping support for node 6 and node 8 (EOL since 2019)
 * fix: security fixes in dependencies
