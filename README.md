@@ -53,11 +53,13 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `fi`: Finnish (based on https://kotoistus.fi/suositukset/suositukset-kielet-fi-koodi/)
 * `fr`: French (based on https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-1)
 * `hu`: Hungarian (based on https://hu.wikipedia.org/wiki/ISO_639-1_nyelvkódok_listája)
+* `id`: Indonesian (based on https://github.com/umpirsky/language-list/blob/master/data/id/language.json)
 * `is`: Islandic (based on https://is.wikipedia.org/wiki/Listi_yfir_tungumálakóða_%C3%AD_ISO_639-1)
 * `it`: Italian (based on https://github.com/umpirsky/language-list/blob/master/data/it/language.json)
 * `ja`: Japanese (by professional translator)
 * `lt`: Lithuanian (based on https://lt.wikipedia.org/wiki/Sąrašas:ISO_639-1_kodai)
 * `lv`: Latvian (based on https://lv.wikipedia.org/wiki/ISO_639-1_kodu_saraksts)
+* `ms`: Malay (based on https://github.com/umpirsky/language-list/blob/master/data/ms/language.json)
 * `nl`: Dutch (based on https://nl.wikipedia.org/wiki/Lijst_van_ISO_639-codes)
 * `no`: Norwegian (based on https://no.wikipedia.org/wiki/Liste_over_ISO_639-1-koder)
 * `pl`: Polish (based on https://pl.wiktionary.org/wiki/Wikis%C5%82ownik:Kody_j%C4%99zyk%C3%B3w)
@@ -65,6 +67,8 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `ro`: Romanian (based on https://ro.wikipedia.org/wiki/Lista_codurilor_ISO_639-1)
 * `ru`: Russian (by professional translator)
 * `sv`: Swedish (based on https://sv.wikipedia.org/wiki/ISO_639)
+* `th`: Thai (based on https://github.com/umpirsky/language-list/blob/master/data/th/language.json)
+* `vi`: Vietnamese (based on https://github.com/umpirsky/language-list/blob/master/data/vi/language.json)
 * `zh`: Chinese (by professional translator)
 
 
