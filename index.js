@@ -80,19 +80,20 @@ function toAlpha3T(code) {
     return undefined;
   }
 
+  const codeLower = code.toLowerCase();
   if (code.length === 2) {
 
-    return alpha2ToAlpha3T(code.toLowerCase());
+    return alpha2ToAlpha3T(codeLower);
   }
   if (code.length === 3) {
 
-    if (alpha3T[code.toLowerCase()]) {
+    if (alpha3T[codeLower]) {
 
-      return code.toLowerCase();
+      return codeLower;
     }
-    if (alpha3BToAlpha2(code.toLowerCase())) {
+    if (alpha3BToAlpha2(codeLower)) {
 
-      return alpha2ToAlpha3T(alpha3BToAlpha2(code.toLowerCase()));
+      return alpha2ToAlpha3T(alpha3BToAlpha2(codeLower));
     }
   }
 
@@ -110,19 +111,20 @@ function toAlpha3B(code) {
     return undefined;
   }
 
+  const codeLower = code.toLowerCase();
   if (code.length === 2) {
 
-    return alpha2ToAlpha3B(code.toLowerCase());
+    return alpha2ToAlpha3B(codeLower);
   }
   if (code.length === 3) {
 
-    if (alpha3B[code.toLowerCase()]) {
+    if (alpha3B[codeLower]) {
 
-      return code.toLowerCase();
+      return codeLower;
     }
-    if (alpha3T[code.toLowerCase()]) {
+    if (alpha3T[codeLower]) {
 
-      return alpha2ToAlpha3B(alpha3TToAlpha2(code.toLowerCase()));
+      return alpha2ToAlpha3B(alpha3TToAlpha2(codeLower));
     }
   }
 
@@ -140,19 +142,20 @@ function toAlpha2(code) {
     return undefined;
   }
 
+  const codeLower = code.toLowerCase();
   if (code.length === 2) {
 
-    return code.toLowerCase();
+    return codeLower;
   }
   if (code.length === 3) {
 
-    if (alpha3B[code.toLowerCase()]) {
+    if (alpha3B[codeLower]) {
 
-      return alpha3BToAlpha2(code.toLowerCase());
+      return alpha3BToAlpha2(codeLower);
     }
-    if (alpha3T[code.toLowerCase()]) {
+    if (alpha3T[codeLower]) {
 
-      return alpha3TToAlpha2(code.toLowerCase());
+      return alpha3TToAlpha2(codeLower);
     }
   }
 
