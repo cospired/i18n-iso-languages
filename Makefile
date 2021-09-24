@@ -1,8 +1,9 @@
 default: test
 
-jshint:
-	@echo "jshint"
-	@find . -name "*.js" -not -path "./node_modules/*" -print0 | xargs -0 ./node_modules/.bin/jshint
+eslint:
+	@echo "eslint"
+	@./node_modules/.bin/eslint --max-warnings=0 .
+	# @find . -name "*.js" -not -path "./node_modules/*" -print0 | xargs -0 ./node_modules/.bin/eslint
 
 circular:
 	@echo "circular"
@@ -18,7 +19,7 @@ coverage:
 	@./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test/*
 	@echo
 
-test: jshint circular mocha coverage
+test: eslint circular mocha coverage
 	@echo "test done"
 	@echo
 

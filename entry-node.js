@@ -1,35 +1,62 @@
-var library = require("./index");
+const br = require('./langs/br.json');
+const cs = require('./langs/cs.json');
+const da = require('./langs/da.json');
+const de = require('./langs/de.json');
+const en = require('./langs/en.json');
+const es = require('./langs/es.json');
+const fi = require('./langs/fi.json');
+const fr = require('./langs/fr.json');
+const hu = require('./langs/hu.json');
+const id = require('./langs/id.json');
+const is = require('./langs/is.json');
+const it = require('./langs/it.json');
+const ja = require('./langs/ja.json');
+const lt = require('./langs/lt.json');
+const lv = require('./langs/lv.json');
+const ms = require('./langs/ms.json');
+const nl = require('./langs/nl.json');
+const no = require('./langs/no.json');
+const pl = require('./langs/pl.json');
+const pt = require('./langs/pt.json');
+const ro = require('./langs/ro.json');
+const ru = require('./langs/ru.json');
+const sv = require('./langs/sv.json');
+const th = require('./langs/th.json');
+const vi = require('./langs/vi.json');
+const zh = require('./langs/zh.json');
 
-var locales = [
-  require("./langs/br.json"),
-  require("./langs/cs.json"),
-  require("./langs/da.json"),
-  require("./langs/de.json"),
-  require("./langs/en.json"),
-  require("./langs/es.json"),
-  require("./langs/fi.json"),
-  require("./langs/fr.json"),
-  require("./langs/hu.json"),
-  require("./langs/id.json"),
-  require("./langs/is.json"),
-  require("./langs/it.json"),
-  require("./langs/ja.json"),
-  require("./langs/lt.json"),
-  require("./langs/lv.json"),
-  require("./langs/ms.json"),
-  require("./langs/nl.json"),
-  require("./langs/no.json"),
-  require("./langs/pl.json"),
-  require("./langs/pt.json"),
-  require("./langs/ro.json"),
-  require("./langs/ru.json"),
-  require("./langs/sv.json"),
-  require("./langs/th.json"),
-  require("./langs/vi.json"),
-  require("./langs/zh.json")
+const library = require('./index');
+
+const locales = [
+  br,
+  cs,
+  da,
+  de,
+  en,
+  es,
+  fi,
+  fr,
+  hu,
+  id,
+  is,
+  it,
+  ja,
+  lt,
+  lv,
+  ms,
+  nl,
+  no,
+  pl,
+  pt,
+  ro,
+  ru,
+  sv,
+  th,
+  vi,
+  zh,
 ];
 
-for (var i = 0; i < locales.length; i++) {
+for (let i = 0; i < locales.length; i += 1) {
   library.registerLocale(locales[i]);
 }
 

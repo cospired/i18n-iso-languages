@@ -72,9 +72,10 @@
     "url": "https://github.com/cospired/i18n-iso-languages.git"
   },
   "devDependencies": {
+    "@cospired/eslint-config-base": "^5.0.0",
     "assert-plus": "1.0.0",
+    "eslint-plugin-mocha": "^9.0.0",
     "istanbul": "0.4.5",
-    "jshint": "^2.12.0",
     "madge": "^4.0.2",
     "mocha": "^8.3.2",
     "npm-check": "^5.9.2"
@@ -85,6 +86,10 @@
     "node": ">=10"
   },
   "scripts": {
+    "lint:ci": "npm run lint -- --max-warnings=0",
+    "lint:cli": "eslint",
+    "lint:fix": "eslint --fix .",
+    "lint": "eslint .",
     "npm:update": "npm-check -u",
     "postversion": "git push --follow-tags",
     "test": "make test"
