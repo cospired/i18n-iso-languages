@@ -92,7 +92,10 @@
     "lint": "eslint .",
     "npm:update": "npm-check -u",
     "postversion": "git push --follow-tags",
-    "test": "make test"
+    "test": "npm run lint:ci && npm run test:circular && npm run test:mocha && npm run test:coverage",
+    "test:circular": "madge --circular --exclude 'madge|source-map' .",
+    "test:coverage": "istanbul cover ./node_modules/.bin/_mocha test/*",
+    "test:mocha": "mocha test/*.js"
   },
   "bugs": {
     "url": "https://github.com/cospired/i18n-iso-languages.git/issues"

@@ -21,6 +21,7 @@ codes.forEach((codeInformation) => {
 });
 
 function registerLocale(localeData) {
+
   if (!localeData.locale) {
     throw new TypeError('Missing localeData.locale');
   }
