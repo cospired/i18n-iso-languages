@@ -287,7 +287,7 @@ function langs() {
  */
 function isValid(code) {
 
-  return this.toAlpha3T(code) !== undefined;
+  return toAlpha3T(code) !== undefined;
 }
 
 exports.alpha2ToAlpha3B = alpha2ToAlpha3B;

@@ -188,6 +188,11 @@ describe('i18n for iso 639-1', () => {
 
       assert.equal(i18niso.isValid('xxx'), false);
     });
+    it('works when isValid is destructured (bugfix, ticket #41 github)', () => {
+
+      const { isValid } = i18niso;
+      assert.equal(isValid('ger'), true);
+    });
   });
   describe('completeness', () => {
 
