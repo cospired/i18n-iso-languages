@@ -74,10 +74,11 @@
   "devDependencies": {
     "@cospired/eslint-config-base": "^5.0.0",
     "assert-plus": "1.0.0",
+    "eslint": "^7.32.0",
     "eslint-plugin-mocha": "^9.0.0",
     "istanbul": "0.4.5",
     "madge": "^5.0.1",
-    "mocha": "^9.1.1",
+    "mocha": "^9.1.2",
     "npm-check": "^5.9.2"
   },
   "main": "entry-node",
