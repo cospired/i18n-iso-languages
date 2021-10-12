@@ -1,6 +1,9 @@
 # Changelog
 
-# 3.0.1
+# 3.1.1
+* fix: destructured `isValid` didn't work (#41)
+
+# 3.1.0
 * added indonesian translations
 * added malay translations
 * added thai translations
