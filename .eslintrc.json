@@ -1,0 +1,29 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "@cospired/eslint-config-base"
+  ],
+  "rules": {},
+  "overrides": [
+    {
+      "files": [
+        "test/*.js"
+      ],
+      "env": {
+        "mocha": true
+      },
+      "plugins": [
+        "mocha"
+      ],
+      "rules": {
+        "mocha/no-exclusive-tests": "error",
+        "mocha/no-pending-tests": "error"
+      }
+    }
+  ],
+  "settings": {
+    "import/resolver": "node"
+  }
+}
