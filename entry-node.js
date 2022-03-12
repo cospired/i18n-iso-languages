@@ -22,6 +22,7 @@ const ro = require('./langs/ro.json');
 const ru = require('./langs/ru.json');
 const sv = require('./langs/sv.json');
 const th = require('./langs/th.json');
+const uk = require('./langs/uk.json');
 const vi = require('./langs/vi.json');
 const zh = require('./langs/zh.json');
 
@@ -52,6 +53,7 @@ const locales = [
   ru,
   sv,
   th,
+  uk,
   vi,
   zh,
 ];
