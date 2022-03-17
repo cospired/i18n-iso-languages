@@ -2,6 +2,9 @@
 
 # unreleased
 
+# 3.2.1
+* fix: revert hasOwn to hasOwnProperty to support node 10
+
 # 3.2.0
 * added Ukrainian translations
 * update contribution doc
