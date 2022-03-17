@@ -88,7 +88,7 @@
   "main": "entry-node",
   "browser": "index",
   "engines": {
-    "node": ">=10"
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
   },
   "scripts": {
     "lint:ci": "npm run lint -- --max-warnings=0",
