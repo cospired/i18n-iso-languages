@@ -1,7 +1,11 @@
 # Changelog
 
 # unreleased
+
+# 3.2.0
 * added Ukrainian translations
+* update contribution doc
+* cleanup: remove jshint config
 
 # 3.1.1
 * fix: destructured `isValid` didn't work (#41)
