@@ -68,6 +68,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `ru`: Russian (by professional translator)
 * `sv`: Swedish (based on https://sv.wikipedia.org/wiki/ISO_639)
 * `th`: Thai (based on https://github.com/umpirsky/language-list/blob/master/data/th/language.json)
+* `uk`: Ukrainian (based on https://uk.wikipedia.org/wiki/Список_мовних_кодів_ISO_639)
 * `vi`: Vietnamese (based on https://github.com/umpirsky/language-list/blob/master/data/vi/language.json)
 * `zh`: Chinese (by professional translator)
 

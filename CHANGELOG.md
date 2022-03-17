@@ -1,5 +1,8 @@
 # Changelog
 
+# unreleased
+* added Ukrainian translations
+
 # 3.1.1
 * fix: destructured `isValid` didn't work (#41)
 
