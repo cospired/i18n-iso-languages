@@ -1,6 +1,9 @@
 # Changelog
 
-# unreleased
+# 4.0.0
+* breaking: dropping support for node 10
+* 100% test coverage
+* updated outdated tooling
 
 # 3.2.0
 * added Ukrainian translations
