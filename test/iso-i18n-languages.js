@@ -11,7 +11,7 @@ describe('i18n for iso 639-1', () => {
       assert.equal(i18niso.toAlpha2('de'), 'de');
     });
   });
-  describe('639-1 (Alpha-2) to 639-2/T (Alpha-3) code', () => {
+  describe('incorrect input toAlpha3T', () => {
 
     it('toAlpha3T true => undefined', () => {
 
@@ -21,6 +21,13 @@ describe('i18n for iso 639-1', () => {
 
       assert.equal(i18niso.toAlpha3T('XX'), undefined);
     });
+    it('toAlpha3T >4 letter code => undefined', () => {
+
+      assert.equal(i18niso.toAlpha3T('xxxx'), undefined);
+    });
+  });
+  describe('639-1 (Alpha-2) to 639-2/T (Alpha-3) code', () => {
+
     it('toAlpha3T de => deu', () => {
 
       assert.equal(i18niso.toAlpha3T('de'), 'deu');
@@ -32,12 +39,12 @@ describe('i18n for iso 639-1', () => {
   });
   describe('639-2/T (Alpha-3) to 639-2/T (Alpha-3) code', () => {
 
-    it('toAlpha2 SGP => SGP', () => {
+    it('toAlpha3T deu => deu', () => {
 
       assert.equal(i18niso.toAlpha3T('deu'), 'deu');
     });
   });
-  describe('639-2/T (Alpha-3) to 639-1 (Alpha-2) code', () => {
+  describe('incorrect input toAlpha2', () => {
 
     it('toAlpha2 true => undefined', () => {
 
@@ -47,6 +54,13 @@ describe('i18n for iso 639-1', () => {
 
       assert.equal(i18niso.toAlpha2('XXX'), undefined);
     });
+    it('toAlpha2 >4 letter code => undefined', () => {
+
+      assert.equal(i18niso.toAlpha2('xxxx'), undefined);
+    });
+  });
+  describe('639-2/T (Alpha-3) to 639-1 (Alpha-2) code', () => {
+
     it('toAlpha2 deu => de', () => {
 
       assert.equal(i18niso.toAlpha2('deu'), 'de');
@@ -56,7 +70,7 @@ describe('i18n for iso 639-1', () => {
       assert.equal(i18niso.alpha3TToAlpha2('deu'), 'de');
     });
   });
-  describe('639-2/T (Alpha-3) to 639-2/B (Alpha-3) code', () => {
+  describe('incorrect input toAlpha3B', () => {
 
     it('toAlpha3B not string => undefined', () => {
 
@@ -67,6 +81,13 @@ describe('i18n for iso 639-1', () => {
 
       assert.equal(i18niso.toAlpha3B('xxxx'), undefined);
     });
+    it('toAlpha3B incorrect 3 letter code => undefined', () => {
+
+      assert.equal(i18niso.toAlpha3B('xxx'), undefined);
+    });
+  });
+  describe('639-2/T (Alpha-3) to 639-2/B (Alpha-3) code', () => {
+
     it('toAlpha3B deu => ger', () => {
 
       assert.equal(i18niso.toAlpha3B('deu'), 'ger');
@@ -219,14 +240,22 @@ describe('i18n for iso 639-1', () => {
 
           Object.keys(i18niso.getAlpha2Codes()).forEach((code) => {
 
-            assert.notEqual(i18niso.getName(code, lang), undefined, `missing entry for ${code}`);
+            assert.notEqual(
+              i18niso.getName(code, lang),
+              undefined,
+              `missing entry for ${code}`,
+            );
           });
         });
         it('complete (too much)', () => {
 
           Object.keys(i18niso.getNames(lang)).forEach((code) => {
 
-            assert.notStrictEqual(i18niso.getAlpha2Codes()[code], undefined, `entry for ${code} in lang ${lang} is too much`);
+            assert.notStrictEqual(
+              i18niso.getAlpha2Codes()[code],
+              undefined,
+              `entry for ${code} in lang ${lang} is too much`,
+            );
           });
         });
       });
@@ -339,13 +368,21 @@ describe('i18n for iso 639-1', () => {
     it('should throw on missing "locale" property', () => {
 
       const input = { languages: {} };
-      assert.throws(i18niso.registerLocale(input), TypeError, 'Missing localeData.locale');
+      assert.throws(
+        () => i18niso.registerLocale(input),
+        TypeError,
+        'Missing localeData.locale',
+      );
     });
 
     it('should throw on missing "languages" property', () => {
 
       const input = { locale: 'xx' };
-      assert.throws(i18niso.registerLocale(input), TypeError, 'Missing localeData.languages');
+      assert.throws(
+        () => i18niso.registerLocale(input),
+        TypeError,
+        'Missing localeData.languages',
+      );
     });
   });
 });
