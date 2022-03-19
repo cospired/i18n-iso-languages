@@ -1,6 +1,6 @@
 {
   "name": "@cospired/i18n-iso-languages",
-  "version": "3.2.0",
+  "version": "4.0.0",
   "description": "i18n for ISO 639 language codes",
   "typings": "index.d.js",
   "keywords": [
@@ -80,15 +80,15 @@
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-mocha": "^10.0.3",
-    "istanbul": "0.4.5",
     "madge": "^5.0.1",
     "mocha": "^9.2.2",
-    "npm-check": "^5.9.2"
+    "npm-check": "^5.9.2",
+    "nyc": "^15.1.0"
   },
   "main": "entry-node",
   "browser": "index",
   "engines": {
-    "node": ">=10"
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
   },
   "scripts": {
     "lint:ci": "npm run lint -- --max-warnings=0",
@@ -97,9 +97,9 @@
     "lint": "eslint .",
     "npm:update": "npm-check -u",
     "postversion": "git push --follow-tags",
-    "test": "npm run lint:ci && npm run test:circular && npm run test:mocha && npm run test:coverage",
+    "test": "npm run lint:ci && npm run test:circular && npm run test:coverage",
     "test:circular": "madge --circular --exclude 'madge|source-map' .",
-    "test:coverage": "istanbul cover ./node_modules/.bin/_mocha test/*",
+    "test:coverage": "nyc npm run test:mocha",
     "test:mocha": "mocha test/*.js"
   },
   "bugs": {

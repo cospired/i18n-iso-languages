@@ -204,10 +204,8 @@ function getAlpha2Code(name, lang) {
     const codenames = registeredLocales[lang.toLowerCase()];
     // eslint-disable-next-line no-restricted-syntax -- for loop for early exit
     for (p in codenames) {
-      if (Object.hasOwn(codenames, p)) {
-        if (codenames[p].toLowerCase() === name.toLowerCase()) {
-          return p;
-        }
+      if (codenames[p].toLowerCase() === name.toLowerCase()) {
+        return p;
       }
     }
 

@@ -1,0 +1,33 @@
+{
+  "reporter": [
+    "lcov",
+    "text",
+    "text-summary"
+  ],
+  "cache": true,
+  "all": true,
+  "per-file": true,
+  "report-dir": "./coverage",
+  "watermarks": {
+    "lines": [
+      80,
+      95
+    ],
+    "functions": [
+      80,
+      95
+    ],
+    "branches": [
+      80,
+      95
+    ],
+    "statements": [
+      80,
+      95
+    ]
+  },
+  "branches": 80,
+  "lines": 80,
+  "functions": 80,
+  "statements": 80
+}
