@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.1
+
+- dependabot dependency updates
+
 ## 4.0.0
 
 - breaking: dropping support for node 10
