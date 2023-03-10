@@ -1,5 +1,9 @@
 # Changelog
 
+## [Unreleased]
+
+- added Hebrew translations
+
 ## 4.0.1
 
 - dependabot dependency updates
