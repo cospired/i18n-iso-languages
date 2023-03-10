@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## 4.1.0
+
 - added Hebrew translations
 
 ## 4.0.1
