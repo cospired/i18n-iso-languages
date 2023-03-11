@@ -8,6 +8,7 @@ const de = require('./langs/de.json');
 const el = require('./langs/el.json');
 const en = require('./langs/en.json');
 const es = require('./langs/es.json');
+const et = require('./langs/et.json');
 const fa = require('./langs/fa.json');
 const fi = require('./langs/fi.json');
 const fr = require('./langs/fr.json');
@@ -18,6 +19,7 @@ const id = require('./langs/id.json');
 const is = require('./langs/is.json');
 const it = require('./langs/it.json');
 const ja = require('./langs/ja.json');
+const ko = require('./langs/ko.json');
 const lt = require('./langs/lt.json');
 const lv = require('./langs/lv.json');
 const ms = require('./langs/ms.json');
@@ -51,6 +53,7 @@ const locales = [
   el,
   en,
   es,
+  et,
   fa,
   fi,
   fr,
@@ -61,6 +64,7 @@ const locales = [
   is,
   it,
   ja,
+  ko,
   lt,
   lv,
   ms,
