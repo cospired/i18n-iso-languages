@@ -5,12 +5,14 @@
 - added Arabic translations
 - added Bulgarian translations
 - added Catalan translations
-- added Greek translations
-- added Persian translations
 - added Croatian translations
+- added Estonian translations
+- added Greek translations
+- added Korean translations
+- added Persian translations
+- added Serbian translations
 - added Slovak translations
 - added Slovenian translations
-- added Serbian translations
 - added Turkish translations
 
 ## 4.1.0
