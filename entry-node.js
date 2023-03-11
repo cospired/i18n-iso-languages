@@ -39,7 +39,6 @@ const uk = require('./langs/uk.json');
 const vi = require('./langs/vi.json');
 const zh = require('./langs/zh.json');
 
-
 const library = require('./index');
 
 const locales = [
