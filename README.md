@@ -45,15 +45,20 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 
 ### Supported languages (ISO 639-1)
 
+* `ar`: Arabic (based on ChatGPT)
+* `bg`: Bulgarian (based on ChatGPT)
 * `br`: Breton (based on https://br.wikipedia.org/wiki/Listenn_glok_kodoù_ISO_639-1)
 * `cs`: Czech (based on https://cs.wikipedia.org/wiki/Seznam_kódů_ISO_639-1)
 * `da`: Danish (based on https://da.wikipedia.org/wiki/ISO_639-1)
 * `de`: German (by native speaker)
+* `el`: Greek (based on ChatGPT)
 * `en`: English (ISO 639-1 standard names)
 * `es`: Spanish (based on https://es.wikipedia.org/wiki/ISO_639-1)
+* `fa`: Persian (based on ChatGPT)
 * `fi`: Finnish (based on https://kotoistus.fi/suositukset/suositukset-kielet-fi-koodi/)
 * `fr`: French (based on https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-1)
 * `he`: Hebrew (based on ECMAScript Internationalization API data)
+* `hr`: Croatian (based on ChatGPT)
 * `hu`: Hungarian (based on https://hu.wikipedia.org/wiki/ISO_639-1_nyelvkódok_listája)
 * `id`: Indonesian (based on https://github.com/umpirsky/language-list/blob/master/data/id/language.json)
 * `is`: Islandic (based on https://is.wikipedia.org/wiki/Listi_yfir_tungumálakóða_%C3%AD_ISO_639-1)
@@ -68,11 +73,16 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `pt`: Portuguese (European) (based on https://pt.wikipedia.org/wiki/ISO_639)
 * `ro`: Romanian (based on https://ro.wikipedia.org/wiki/Lista_codurilor_ISO_639-1)
 * `ru`: Russian (by professional translator)
+* `sk`: Slovak (based on ChatGPT)
+* `sl`: Slovenian (based on ChatGPT)
+* `sr`: Serbian (based on ChatGPT)
 * `sv`: Swedish (based on https://sv.wikipedia.org/wiki/ISO_639)
 * `th`: Thai (based on https://github.com/umpirsky/language-list/blob/master/data/th/language.json)
+* `tr`: Turkish (based on ChatGPT)
 * `uk`: Ukrainian (based on https://uk.wikipedia.org/wiki/Список_мовних_кодів_ISO_639)
 * `vi`: Vietnamese (based on https://github.com/umpirsky/language-list/blob/master/data/vi/language.json)
 * `zh`: Chinese (by professional translator)
+
 
 
 [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)

@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+- added Arabic translations
+- added Bulgarian translations
+- added Greek translations
+- added Persian translations
+- added Croatian translations
+- added Slovak translations
+- added Slovenian translations
+- added Serbian translations
+- added Turkish translations
+
 ## 4.1.0
 
 - added Hebrew translations

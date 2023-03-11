@@ -1,12 +1,17 @@
+const ar = require('./langs/ar.json');
+const bg = require('./langs/bg.json');
 const br = require('./langs/br.json');
 const cs = require('./langs/cs.json');
 const da = require('./langs/da.json');
 const de = require('./langs/de.json');
+const el = require('./langs/el.json');
 const en = require('./langs/en.json');
 const es = require('./langs/es.json');
+const fa = require('./langs/fa.json');
 const fi = require('./langs/fi.json');
 const fr = require('./langs/fr.json');
 const he = require('./langs/he.json');
+const hr = require('./langs/hr.json');
 const hu = require('./langs/hu.json');
 const id = require('./langs/id.json');
 const is = require('./langs/is.json');
@@ -21,24 +26,34 @@ const pl = require('./langs/pl.json');
 const pt = require('./langs/pt.json');
 const ro = require('./langs/ro.json');
 const ru = require('./langs/ru.json');
+const sk = require('./langs/sk.json');
+const sl = require('./langs/sl.json');
+const sr = require('./langs/sr.json');
 const sv = require('./langs/sv.json');
 const th = require('./langs/th.json');
+const tr = require('./langs/tr.json');
 const uk = require('./langs/uk.json');
 const vi = require('./langs/vi.json');
 const zh = require('./langs/zh.json');
 
+
 const library = require('./index');
 
 const locales = [
+  ar,
+  bg,
   br,
   cs,
   da,
   de,
+  el,
   en,
   es,
+  fa,
   fi,
   fr,
   he,
+  hr,
   hu,
   id,
   is,
@@ -53,8 +68,12 @@ const locales = [
   pt,
   ro,
   ru,
+  sk,
+  sl,
+  sr,
   sv,
   th,
+  tr,
   uk,
   vi,
   zh,
