@@ -1,6 +1,7 @@
 const ar = require('./langs/ar.json');
 const bg = require('./langs/bg.json');
 const br = require('./langs/br.json');
+const ca = require('./langs/ca.json');
 const cs = require('./langs/cs.json');
 const da = require('./langs/da.json');
 const de = require('./langs/de.json');
@@ -43,6 +44,7 @@ const locales = [
   ar,
   bg,
   br,
+  ca,
   cs,
   da,
   de,

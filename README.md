@@ -48,6 +48,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `ar`: Arabic (based on ChatGPT)
 * `bg`: Bulgarian (based on ChatGPT)
 * `br`: Breton (based on https://br.wikipedia.org/wiki/Listenn_glok_kodoù_ISO_639-1)
+* `ca`: Catalan (based on ChatGPT)
 * `cs`: Czech (based on https://cs.wikipedia.org/wiki/Seznam_kódů_ISO_639-1)
 * `da`: Danish (based on https://da.wikipedia.org/wiki/ISO_639-1)
 * `de`: German (by native speaker)
