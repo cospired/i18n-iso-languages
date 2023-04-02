@@ -67,6 +67,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `it`: Italian (based on https://github.com/umpirsky/language-list/blob/master/data/it/language.json)
 * `ja`: Japanese (by professional translator)
 * `ko`: Korean (based on ChatGPT)
+* `la`: Latin (based on ChatGPT)
 * `lt`: Lithuanian (based on https://lt.wikipedia.org/wiki/Sąrašas:ISO_639-1_kodai)
 * `lv`: Latvian (based on https://lv.wikipedia.org/wiki/ISO_639-1_kodu_saraksts)
 * `ms`: Malay (based on https://github.com/umpirsky/language-list/blob/master/data/ms/language.json)

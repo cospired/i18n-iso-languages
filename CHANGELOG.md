@@ -9,6 +9,7 @@
 - added Estonian translations
 - added Greek translations
 - added Korean translations
+- added Latin translations
 - added Persian translations
 - added Serbian translations
 - added Slovak translations
