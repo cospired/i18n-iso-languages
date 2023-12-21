@@ -45,6 +45,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 
 ### Supported languages (ISO 639-1)
 
+* `bg`: Bulgarian (based on https://bg.wikipedia.org/wiki/Кодове_на_езици with minor adjustments)
 * `br`: Breton (based on https://br.wikipedia.org/wiki/Listenn_glok_kodoù_ISO_639-1)
 * `cs`: Czech (based on https://cs.wikipedia.org/wiki/Seznam_kódů_ISO_639-1)
 * `da`: Danish (based on https://da.wikipedia.org/wiki/ISO_639-1)

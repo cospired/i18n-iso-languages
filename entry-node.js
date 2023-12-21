@@ -1,3 +1,4 @@
+const bg = require('./langs/bg.json');
 const br = require('./langs/br.json');
 const cs = require('./langs/cs.json');
 const da = require('./langs/da.json');
@@ -30,6 +31,7 @@ const zh = require('./langs/zh.json');
 const library = require('./index');
 
 const locales = [
+  bg,
   br,
   cs,
   da,
