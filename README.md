@@ -69,6 +69,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `pt`: Portuguese (European) (based on https://pt.wikipedia.org/wiki/ISO_639)
 * `ro`: Romanian (based on https://ro.wikipedia.org/wiki/Lista_codurilor_ISO_639-1)
 * `ru`: Russian (by professional translator)
+* `sk`: Slovak (based on https://sk.wikipedia.org/wiki/ISO_639)
 * `sv`: Swedish (based on https://sv.wikipedia.org/wiki/ISO_639)
 * `th`: Thai (based on https://github.com/umpirsky/language-list/blob/master/data/th/language.json)
 * `uk`: Ukrainian (based on https://uk.wikipedia.org/wiki/Список_мовних_кодів_ISO_639)
