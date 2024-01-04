@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 
+- added Slovak translations
 - added Bulgarian translations
 
 ## 4.1.0
