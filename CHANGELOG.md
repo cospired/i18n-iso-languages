@@ -2,10 +2,12 @@
 
 ## [Unreleased]
 
-- added Slovak translations
-- added Bulgarian translations
+## 4.2.0
+
 - added Arabic translations
+- added Bulgarian translations
 - added Korean translations
+- added Slovak translations
 
 ## 4.1.0
 
