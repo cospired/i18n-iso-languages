@@ -4,6 +4,8 @@
 
 - added Slovak translations
 - added Bulgarian translations
+- added Arabic translations
+- added Korean translations
 
 ## 4.1.0
 

@@ -45,6 +45,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 
 ### Supported languages (ISO 639-1)
 
+* `ar`: Arabic (based on https://github.com/umpirsky/language-list/blob/master/data/ar/language.json)
 * `bg`: Bulgarian (based on https://bg.wikipedia.org/wiki/Кодове_на_езици with minor adjustments)
 * `br`: Breton (based on https://br.wikipedia.org/wiki/Listenn_glok_kodoù_ISO_639-1)
 * `cs`: Czech (based on https://cs.wikipedia.org/wiki/Seznam_kódů_ISO_639-1)
@@ -60,6 +61,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `is`: Islandic (based on https://is.wikipedia.org/wiki/Listi_yfir_tungumálakóða_%C3%AD_ISO_639-1)
 * `it`: Italian (based on https://github.com/umpirsky/language-list/blob/master/data/it/language.json)
 * `ja`: Japanese (by professional translator)
+* `ko`: Korean (based on https://github.com/umpirsky/language-list/blob/master/data/ko/language.json)
 * `lt`: Lithuanian (based on https://lt.wikipedia.org/wiki/Sąrašas:ISO_639-1_kodai)
 * `lv`: Latvian (based on https://lv.wikipedia.org/wiki/ISO_639-1_kodu_saraksts)
 * `ms`: Malay (based on https://github.com/umpirsky/language-list/blob/master/data/ms/language.json)

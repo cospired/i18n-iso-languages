@@ -1,3 +1,4 @@
+const ar = require('./langs/ar.json');
 const bg = require('./langs/bg.json');
 const br = require('./langs/br.json');
 const cs = require('./langs/cs.json');
@@ -13,6 +14,7 @@ const id = require('./langs/id.json');
 const is = require('./langs/is.json');
 const it = require('./langs/it.json');
 const ja = require('./langs/ja.json');
+const ko = require('./langs/ko.json');
 const lt = require('./langs/lt.json');
 const lv = require('./langs/lv.json');
 const ms = require('./langs/ms.json');
@@ -32,6 +34,7 @@ const zh = require('./langs/zh.json');
 const library = require('./index');
 
 const locales = [
+  ar,
   bg,
   br,
   cs,
@@ -47,6 +50,7 @@ const locales = [
   is,
   it,
   ja,
+  ko,
   lt,
   lv,
   ms,
