@@ -73,6 +73,7 @@ console.log(languages.getNames("en")); // { 'ab': 'Abkhazian', 'aa': 'Afar', [..
 * `ru`: Russian (by professional translator)
 * `sk`: Slovak (based on https://sk.wikipedia.org/wiki/ISO_639)
 * `sv`: Swedish (based on https://sv.wikipedia.org/wiki/ISO_639)
+* `ta`: Tamil (based on https://ta.wikipedia.org/wiki/%E0%AE%90.%E0%AE%8E%E0%AE%9A%E0%AF%81.%E0%AE%93_639-1_%E0%AE%95%E0%AF%81%E0%AE%B1%E0%AE%BF%E0%AE%AF%E0%AF%80%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B3%E0%AF%8D_%E0%AE%AA%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D)
 * `th`: Thai (based on https://github.com/umpirsky/language-list/blob/master/data/th/language.json)
 * `uk`: Ukrainian (based on https://uk.wikipedia.org/wiki/Список_мовних_кодів_ISO_639)
 * `vi`: Vietnamese (based on https://github.com/umpirsky/language-list/blob/master/data/vi/language.json)
@@ -156,7 +157,7 @@ To add a language:
 * add language to section **Supported languages** in README.md (in alphabetical order)
 * add language to keywords in package.json (in alphabetical order)
 * add language to the "unreleased" section of the changelog
-* run `npm install && make test` to make sure that tests are passing
+* run `npm install && npm run test` to make sure that tests are passing
 * open a PR on GitHub
 
 Please do not change the version in package.json, package-lock.json or changelog.md.
