@@ -37,6 +37,7 @@
     "lt",
     "lv",
     "ms",
+    "mn",
     "nl",
     "no",
     "pl",
@@ -105,9 +106,15 @@
     "test": "npm run lint:ci && npm run test:circular && npm run test:coverage",
     "test:circular": "madge --circular --exclude 'madge|source-map' .",
     "test:coverage": "nyc npm run test:mocha",
-    "test:mocha": "mocha test/*.js"
+    "test:mocha": "mocha test/*.js",
+    "util:unraw": "tsx scripts/unraw.ts langs/mn.json",
+    "util:filter_too_much": "tsx scripts/filter_too_much.ts langs/mn.json"
   },
   "bugs": {
     "url": "https://github.com/cospired/i18n-iso-languages.git/issues"
+  },
+  "dependencies": {
+    "tsx": "^4.19.3",
+    "unraw": "^3.0.0"
   }
 }

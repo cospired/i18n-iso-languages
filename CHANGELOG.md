@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- added Mongolian translations
+
 ## 4.2.0
 
 - added Arabic translations
