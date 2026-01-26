@@ -1,6 +1,7 @@
 # Changelog
 
 ## [Unreleased]
+- added Georgian translations
 
 ## 4.2.0
 

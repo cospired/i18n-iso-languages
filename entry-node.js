@@ -14,6 +14,7 @@ const id = require('./langs/id.json');
 const is = require('./langs/is.json');
 const it = require('./langs/it.json');
 const ja = require('./langs/ja.json');
+const ka = require('./langs/ka.json');
 const ko = require('./langs/ko.json');
 const lt = require('./langs/lt.json');
 const lv = require('./langs/lv.json');
@@ -50,6 +51,7 @@ const locales = [
   is,
   it,
   ja,
+  ka,
   ko,
   lt,
   lv,
